@@ -1,25 +1,37 @@
-import React from 'react'
-import './App.css';
-import Header from './components/Header/Header';
-import Map from './components/Map/Map';
-import List  from './components/List/List';
-import { CssBaseline, Grid } from '@material-ui/core';
+import React, { useState, useEffect } from 'react';
+import Loading from './Loading';
+import Tours from './Tours';
+import Tour from './Tour';
 
+const url = `https://course-api.com/react-tours-project`
 
-const App = () => {
-  return (
-    <>
-      <CssBaseline />
-        <Header />
-          <Grid container spacing={3} style={{ width: '100%' }}>
-            <Grid item xs={12} md={4}>
-              <List />
-            </Grid> 
-          <Grid item xs={12} md={8}>
-              <Map />    
-          </Grid>
-          </Grid>
-    </>
+function App() {
+  const [loading, setLoading] = useState(true);
+  const [tours, setTours] = useState([]);
+
+  const fetchTours = async () => {
+    setLoading(true);
+    const response = await fetch(url);
+    const tours = await response.json();
+    console.log(tours);
+  }
+    useEffect(() => {
+      fetchTours();
+    }, []);
+
+  
+
+  if (loading) {
+    return (
+      <main>
+         <Loading />
+      </main>
+    );
+  }
+  return  (
+    <main>
+      <Tours />
+    </main>
   );
 }
 
