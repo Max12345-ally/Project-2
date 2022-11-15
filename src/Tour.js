@@ -1,6 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Tour = () => {
-    return <h2>single Tour!!!!</h2>;       
+const Tour = ({ id, image, info, price, name }) => {
+    return  <article className='single-tour'>
+                <img src={image} alt={name}/>
+                <footer>
+                    <div className='tour-info'>
+                        <h4>{name}</h4>
+                        <h4 classNAme ='tour-price'>${price}</h4>
+
+                    </div>
+                    <p>{info}</p>
+                </footer>
+            </article>
+               
 };
 export default Tour;
