@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Loading from './Loading';
 import Tours from './Tours';
-import Tour from './Tour';
+
 
 const url = `https://course-api.com/react-tours-project`
 
@@ -13,11 +13,12 @@ function App() {
     setLoading(false);
     const response = await fetch(url);
     const tours = await response.json();
-    console.log(tours);
+    setTours (tours);  
   }
     useEffect(() => {
       fetchTours();
     }, []);
+    
 
   
 
@@ -30,7 +31,7 @@ function App() {
   }
   return  (
     <main>
-      <Tours tours={tours} />
+      <Tours tours={tours} /> {/*prop and State */} 
     </main>
   );
 }
