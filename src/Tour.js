@@ -1,16 +1,10 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
 const Tour = ({ id, image, info, price, name }) => {
     return  <article className='single-tour'>
                 <img src={image} alt={name}/>
-                <footer>
-                    <div className='tour-info'>
-                        <h4>{name}</h4>
-                        <h4 classNAme ='tour-price'>${price}</h4>
-
-                    </div>
-                    <p>{info}</p>
-                </footer>
+                <Link to={'/details/' + id}>{name}</Link>
             </article>
                
 };

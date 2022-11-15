@@ -121,3 +121,11 @@ main {
   padding: 0.25rem 0.5rem;
   border-radius: 0,25rem;
 }
+.Footer {
+text-align: center;
+font-size: 30px;
+}
+
+.footer {
+  text-align: center;
+  }
