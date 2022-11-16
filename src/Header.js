@@ -4,15 +4,18 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <div className="title">
-                <h1>Best City Tours</h1>
+            <h1>TravelPal</h1>
                 <div className="underline"></div>
+            <div className="homeAbout">    
             <Link to='/'>
-            <h1>Home</h1>    
+            <h3 className="home">Home</h3>    
             </Link>
             <Link to='/about'>
-            <h1>About</h1>    
+            <h3 className="home">About</h3>    
             </Link>
             </div>
+            
+        </div>
         
    
 

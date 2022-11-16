@@ -7,7 +7,7 @@ const About = () => {
         <div>
             
             <div className='video'>
-                <video src ={videoParis} autoPlay muted loop></video>
+                <video src ={videoParis}  muted loop></video>
                 <div className="content">
                     <h3>This app is for travel addicted people.</h3>
                 </div>
