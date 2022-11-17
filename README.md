@@ -1,160 +1,70 @@
-## Project Description
+# Getting Started with Create React App
 
- TravelApp
- An App to let user to choose country to visit with details and prices and nice pictures. 
- 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Project Links
+## Available Scripts
 
-- [github repo](https://github.com/Max12345-ally/Project-2)
-- [deployment](https://vercel.com/max12345-ally/project-2)
+In the project directory, you can run:
 
+### `npm start`
 
-## Wireframes & React Component Hierarchy
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- [wireframes](Screenshot 2022-11-17 at 20 35 29](https://user-images.githubusercontent.com/82536307/202517984-949e26fa-ec7c-420d-abc8-f25ee46d7adc.png
-Screenshot 2022-11-17 at 20 35 29](https://user-images.githubusercontent.com/82536307/202517984-949e26fa-ec7c-420d-abc8-f25ee46d7adc.png
-Screenshot 2022-11-17 at 20 35 46](https://user-images.githubusercontent.com/82536307/202518197-207cebad-42f6-4546-940d-79c2a05c0c4a.png)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Main Page
+### `npm test`
 
-![Screenshot 2022-11-17 at 20 35 29](https://user-images.githubusercontent.com/82536307/202517984-949e26fa-ec7c-420d-abc8-f25ee46d7adc.png)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Info Page
+### `npm run build`
 
-![Screenshot 2022-11-17 at 20 35 38](https://user-images.githubusercontent.com/82536307/202518134-537d7be1-5429-42d6-8ef1-3fd64fc4123b.png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-About
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![Screenshot 2022-11-17 at 20 35 46](https://user-images.githubusercontent.com/82536307/202518197-207cebad-42f6-4546-940d-79c2a05c0c4a.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-![Screenshot 2022-11-17 at 20 42 26](https://user-images.githubusercontent.com/82536307/202519054-a0be6e7d-d8cd-4490-8bc4-764277e937a7.png)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-### MVP/PostMVP
-MVP
-Pictures of each Tour with short info
-Show more details of the Tour
-Using Home About to navigate through site
-See Loading status
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-post MVP
-choose date
-use TripAdvisor API/ Google Map
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Components
+### Code Splitting
 
-| Component | Description | 
-| --- | :---: |   
-| App | The API data is fetched, React Router added, all Components included |
-| Header | This is the Name of App, Home and About buttons |
-| About | To see the video of example place to visit Paris |
-| Home | Link to main page |
-| Details | Text description of the place to travel and price |
-| Tours | This is where all of the tours will be displayed to find the best one |
-| Tour | Each separate tour on the page with Image and Link for details |
-| Loading | Loading status of the site |
-| Footer | Link to GitHub account |
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Code Snippet
-The React Router is working and all components incorporated incl. Loading Status . 
-Code -
-return  (
-    <main>
-      <Header />
-      <Routes>
-         <Route path=“/” element={ <Home tours={tours} /> } />
-         <Route path=“/about” element={ <About /> } />
-         <Route path=“/details/:id” element={ <Details tours={tours} /> } />
-      </Routes>
-      <Footer />
-    </main>
-  );
+### Analyzing the Bundle Size
 
-## Issues and Resolutions
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-  useEffect(() => {
-      fetchTours();
-    }, []);
-    
-    I ocassionaly missed this lines of code with useState and got infinite loop with many requests, which crashed my API for some time. 
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-# Project Overview
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Project Description
+### Deployment
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## Project Links
+### `npm run build` fails to minify
 
-- [demo recording]()
-
-
-
-Upload images of wireframes and component hierarchy to cloudinary (or similar) and add the link here with a description of the specific wireframe.
-
-
-- [react architecture]()
-
-Define the the React components and the architectural design of your app.
-
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decide what is placed into your MVP as the "client" will expect this functionality to be implemented upon project completion.  
-
-#### MVP EXAMPLE
-- Find and use external api 
-- Render data on page 
-- Allow user to interact with the page
-
-#### PostMVP EXAMPLE
-
-- Add localStorage or firebase (or similar) for storage
-
-## Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
-
-
-| App | This will make the initial data pull and include React Router| 
-| Header | This will render the header, include the nav | 
-| Footer | This will render the footer, include links to github repo | 
-
-## Time Frames
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the project.  Your estimates can then be used to evaluate project possibilities based on time needed and the actual time you have before the project must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. 
-
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
-
-## Additional Libraries
- Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, Bootstrap, Tailwind CSS, etc. 
-
-## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  Code snippet should not be greater than 10 lines of code. 
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
-
-## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
-
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
