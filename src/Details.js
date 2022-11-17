@@ -16,7 +16,7 @@ const Details = ({tours}) => {
     </footer>
 
     )
-  
+    
                
 };
 export default Details;
