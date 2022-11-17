@@ -5,12 +5,13 @@ const About = () => {
     return (
 
         <div>
+             <div className="content">
+                    <h2>This app is for travel addicted people</h2>
+                </div>
             
             <div className='video'>
                 <video src ={videoParis}  autoPlay muted loop></video>
-                <div className="content">
-                    <h3>This app is for travel addicted people.</h3>
-                </div>
+               
             </div>
             
         </div>
