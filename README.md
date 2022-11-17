@@ -30,3 +30,22 @@ Used Parcel.com
 
 https://vercel.com/max12345-ally/project-2
 
+The technologies I used JavaScript JS REact, Router
+
+User stories
+
+Load page with the travel app;
+Find tour you like
+See the picture of the place
+Go to the details
+Short description of the tour abd price 
+Click "Home" or "About"
+If Click "About" see inspirational video short video of Paris
+
+Unsolved problems
+
+use more profficient API e.g. TripAdviser;
+see Google Map on the page;
+choose the date and plac to travel;
+see the reviews of other users.
+
