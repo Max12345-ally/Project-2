@@ -12,6 +12,10 @@ Project Links
 
 ## Wireframes & React Component Hierarchy
 
+- [wireframes](Screenshot 2022-11-17 at 20 35 29](https://user-images.githubusercontent.com/82536307/202517984-949e26fa-ec7c-420d-abc8-f25ee46d7adc.png
+Screenshot 2022-11-17 at 20 35 29](https://user-images.githubusercontent.com/82536307/202517984-949e26fa-ec7c-420d-abc8-f25ee46d7adc.png
+Screenshot 2022-11-17 at 20 35 46](https://user-images.githubusercontent.com/82536307/202518197-207cebad-42f6-4546-940d-79c2a05c0c4a.png)
+
 Main Page
 
 ![Screenshot 2022-11-17 at 20 35 29](https://user-images.githubusercontent.com/82536307/202517984-949e26fa-ec7c-420d-abc8-f25ee46d7adc.png)
@@ -95,7 +99,7 @@ Use this section to describe your final project and perhaps any links to relevan
 
 Upload images of wireframes and component hierarchy to cloudinary (or similar) and add the link here with a description of the specific wireframe.
 
-- [wireframes]()
+
 - [react architecture]()
 
 Define the the React components and the architectural design of your app.
