@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import videoParis from './assets/paris.mp4'
 
 const About = () => {
