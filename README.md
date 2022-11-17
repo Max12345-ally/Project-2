@@ -1,4 +1,4 @@
-Project Description
+## Project Description
 
  TravelApp
  An App to let user to choose country to visit with details and prices and nice pictures. 
@@ -51,17 +51,17 @@ use TripAdvisor API/ Google Map
 
 Components
 
-Component
-
-App --- The API data is fetched, React Router added, all Components included
-Header --- This is the Name of App, Home and About buttons
-About --- To see the video of example place to visit Paris
-Home --- Link to main page
-Details --- Text description of the place to travel and price
-Tours --- This is where all of the tours will be displayed to find the best one
-Tour --- Each separate tour on the page with Image and Link for details
-Loading --- Loading status of the site 
-Footer --- Link to GitHub account
+Component.  Description
+| --- | :---: |  
+| App | The API data is fetched, React Router added, all Components included |
+| Header | This is the Name of App, Home and About buttons |
+| About | To see the video of example place to visit Paris |
+| Home | Link to main page |
+| Details | Text description of the place to travel and price |
+| Tours | This is where all of the tours will be displayed to find the best one |
+| Tour | Each separate tour on the page with Image and Link for details |
+| Loading | Loading status of the site |
+| Footer | Link to GitHub account |
 
 Code Snippet
 The React Router is working and all components incorporated incl. Loading Status . 
@@ -78,7 +78,13 @@ return  (
     </main>
   );
 
+## Issues and Resolutions
 
+  useEffect(() => {
+      fetchTours();
+    }, []);
+    
+    I ocassionaly missed this lines of code with useState and got infinite loop with many requests, which crashed my API for some time. 
 
 
 
