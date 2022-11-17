@@ -63,6 +63,23 @@ Tour --- Each separate tour on the page with Image and Link for details
 Loading --- Loading status of the site 
 Footer --- Link to GitHub account
 
+Code Snippet
+The React Router is working and all components incorporated incl. Loading Status . 
+Code -
+return  (
+    <main>
+      <Header />
+      <Routes>
+         <Route path=“/” element={ <Home tours={tours} /> } />
+         <Route path=“/about” element={ <About /> } />
+         <Route path=“/details/:id” element={ <Details tours={tours} /> } />
+      </Routes>
+      <Footer />
+    </main>
+  );
+
+
+
 
 
 
