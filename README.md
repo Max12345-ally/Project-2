@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# TravelApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Wireframe
+
+Main Page
+
+![Screenshot 2022-11-17 at 20 35 29](https://user-images.githubusercontent.com/82536307/202517984-949e26fa-ec7c-420d-abc8-f25ee46d7adc.png)
+
+Info Page
+
+![Screenshot 2022-11-17 at 20 35 38](https://user-images.githubusercontent.com/82536307/202518134-537d7be1-5429-42d6-8ef1-3fd64fc4123b.png)
+
+About
+
+![Screenshot 2022-11-17 at 20 35 46](https://user-images.githubusercontent.com/82536307/202518197-207cebad-42f6-4546-940d-79c2a05c0c4a.png)
+
+
 
 ## Available Scripts
 
