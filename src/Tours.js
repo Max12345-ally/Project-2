@@ -2,7 +2,7 @@ import React from 'react';
 import Tour from './Tour';
 
 const Tours = ({tours}) => {
-    console.log(tours.length)
+    
  
     return (
         <section>
