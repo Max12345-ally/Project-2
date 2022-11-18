@@ -43,6 +43,20 @@ Structure
 | Loading | Loading status of the site |
 | Footer | Link to GitHub account |
 
+### Time Frame
+
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Structure | H | 4hrs| 4hrs | 4hrs |
+| Adding Components | H | 8hrs| 8hrs | 8hrs |
+| Working with API | H | 3hrs| 3hrs | 3hrs |
+| Styling | H | 4hrs| 4hrs | 4hrs |
+| VideoAnimation | M | 1hrs| 1hrs | 1hrs |
+| Deployment | M | 1hrs| 1hrs | 1hrs |
+| GitHub | H | 2hrs| 2hrs | 2hrs |
+| Video Recording/Editing | M | 2hrs| 2hrs | 2hrs |
+| Total | H | 25hrs| 25hrs | 25hrs |
+
 ## Code Snippet
 The React Router is working and all components incorporated incl. Loading Status . 
 Code -
