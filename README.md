@@ -87,3 +87,33 @@ return  (
     # Project Overview
 
 
+    ---
+name: 'Code Review '
+about: Use this Ticket as a guide of questions to ask during the code review.
+title: Code Review results
+labels: ''
+assignees: ''
+
+---
+
+Setup and Overview:
+
+What was the project you were trying to build, in your own words? Search engine for invention
+How did you break the problem down in to smaller parts? Start form Home/About ... and Add.js with main fetch
+What were the key features of your MVP? Why? Be able to request data and dipslay on the screen. Router included
+What was the biggest challenge you faced working on this project? Talking with API. It is government data. Used RegEx special hook. 10Mil data.
+
+Problem Solution:
+
+What is the overall architecture or structure of your code base? About, Home ,Model, SeacrBar, App
+What are the key classes/functions? Why did you decide on these? What is each one doing? func SearchBar and Inventbar for core functionality
+What pieces of functionality are missing or incomplete in your project? What are the next steps to finishing them? Background image and more Google like design
+
+Bugs and Tweaks 
+
+Are there any bugs still in the project? What might be causing them? How might they be fixed? No bugs
+Are there parts of the code base that could be cleaned up so that they're easier to read and understand what is happening? footer.css no needs
+Are there pieces of commented-out code or console.logs left in the codebase? No
+
+
+
